@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Real IP Restore for Cloudflare
- * Plugin URI:        https://apps.culture-dev.eu
+ * Plugin URI:        https://apps.culture-dev.eu/plugins/wp/real-ip-restore-for-cloudflare
  * Description:       Restores the real visitor IP behind Cloudflare's proxy on cPanel / shared hosts that lack native mod_remoteip support.
  * Version:           1.3.1
  * Requires at least: 5.0
