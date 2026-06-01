@@ -22,12 +22,12 @@ On many shared cPanel hosts - Bluehost, HostGator, Namecheap, A2 Hosting, GoDadd
 
 **Features:**
 
-* Zero configuration — works out of the box.
+* Zero configuration - works out of the box.
 * IPv4 and IPv6 support.
 * Daily auto-refresh of Cloudflare IP ranges.
 * Manual refresh from Settings → CF Real IP.
 * Falls back to hardcoded ranges if Cloudflare endpoints are unreachable.
-* Lightweight — no database tables, no options, no JavaScript.
+* Lightweight - no database tables, no options, no JavaScript.
 
 == Installation ==
 
@@ -44,7 +44,7 @@ Yes. All plugins that read `$_SERVER['REMOTE_ADDR']` will receive the real visit
 The plugin checks the IP against Cloudflare ranges before replacing it. If `REMOTE_ADDR` is not a Cloudflare IP, nothing is changed.
 
 = Can I manually refresh the IP range cache? =
-Yes — Settings → CF Real IP → Refresh IP Ranges Cache.
+Yes - Settings → CF Real IP → Refresh IP Ranges Cache.
 
 == Changelog ==
 
