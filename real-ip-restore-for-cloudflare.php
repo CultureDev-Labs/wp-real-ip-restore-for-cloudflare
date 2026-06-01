@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Real IP Restore for Cloudflare
  * Plugin URI:        https://culture-dev.eu
- * Description:       Restores real visitor IP behind Cloudflare proxy on cPanel hosts (o2switch, etc.) that lack native mod_remoteip support.
- * Version:           1.0.0
+ * Description:       Restores the real visitor IP behind Cloudflare's proxy on cPanel / shared hosts that lack native mod_remoteip support.
+ * Version:           1.3.1
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            Culture Dev
@@ -18,17 +18,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'CFRIP_VERSION', '1.0.0' );
+define( 'CFRIP_VERSION', '1.3.1' );
 define( 'CFRIP_CACHE_KEY', 'cfrip_ip_ranges' );
 define( 'CFRIP_CACHE_TTL', 86400 );
-
-/**
- * Load translations.
- */
-function cfrip_load_textdomain() {
-	load_plugin_textdomain( 'real-ip-restore-for-cloudflare', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-}
-add_action( 'init', 'cfrip_load_textdomain' );
 
 /**
  * Return the list of Cloudflare IP ranges (cached as a transient).
