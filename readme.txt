@@ -1,6 +1,6 @@
 === Real IP Restore for Cloudflare ===
 Contributors: websolman
-Tags: cloudflare, real ip, proxy, cpanel, logging
+Tags: cloudflare, real ip, proxy, shared hosting, logging
 Requires at least: 5.0
 Tested up to: 7.0
 Stable tag: 1.3.1
@@ -8,7 +8,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Restores real visitor IP behind Cloudflare proxy on cPanel hosts that lack native mod_remoteip support.
+Restores the real visitor IP behind Cloudflare's proxy on any shared hosting that lacks native mod_remoteip support.
 
 == Description ==
 
