@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Real IP Restore for Cloudflare package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Real IP Restore for Cloudflare\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-01 01:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cloudflare-real-ip.php:185 cloudflare-real-ip.php:210
+msgid "Real IP Restore for Cloudflare"
+msgstr ""
+
+#: cloudflare-real-ip.php:186
+msgid "CF Real IP"
+msgstr ""
+
+#: cloudflare-real-ip.php:204
+msgid "IP ranges refreshed."
+msgstr ""
+
+#: cloudflare-real-ip.php:208
+msgid "unknown"
+msgstr ""
+
+#: cloudflare-real-ip.php:211
+msgid "Current REMOTE_ADDR:"
+msgstr ""
+
+#: cloudflare-real-ip.php:215
+msgid "Refresh IP Ranges Cache"
+msgstr ""
+
+#: cloudflare-real-ip.php:218
+#, php-format
+msgid "Cached Cloudflare IP Ranges (%d)"
+msgstr ""

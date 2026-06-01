@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real IP Restore for Cloudflare 1.0.0\n"
+"Report-Msgid-Bugs-To: https://culture-dev.eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"X-Domain: real-ip-restore-for-cloudflare\n"
+
+
+msgid "Real IP Restore for Cloudflare"
+msgstr "Real IP Restore for Cloudflare"
+
+msgid "CF Real IP"
+msgstr "CF Real IP"
+
+msgid "IP ranges refreshed."
+msgstr "Plages d’IP actualisées."
+
+msgid "Current REMOTE_ADDR:"
+msgstr "REMOTE_ADDR actuelle :"
+
+msgid "Refresh IP Ranges Cache"
+msgstr "Actualiser le cache des plages d’IP"
+
+#. translators: %d: number of cached Cloudflare IP ranges.
+msgid "Cached Cloudflare IP Ranges (%d)"
+msgstr "Plages d’IP Cloudflare en cache (%d)"
+
+msgid "unknown"
+msgstr "inconnue"
+

@@ -1,8 +1,8 @@
-=== Cloudflare Real IP ===
-Contributors: edouardchelbi
+=== Real IP Restore for Cloudflare ===
+Contributors: websolman
 Tags: cloudflare, real ip, proxy, cpanel, logging
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: 1.0.0
 Requires PHP: 7.4
 License: GPL-2.0-or-later
